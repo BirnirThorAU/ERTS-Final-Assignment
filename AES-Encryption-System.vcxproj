@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aes_block.cpp" />
     <ClCompile Include="aes_encryption_system.cpp" />
     <ClCompile Include="data_loaded.cpp" />
     <ClCompile Include="done.cpp" />
@@ -132,11 +133,16 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mode_selected.cpp" />
     <ClCompile Include="processing.cpp" />
+    <ClCompile Include="testbench.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aes_block.h" />
     <ClInclude Include="aes_encryption_system.h" />
     <ClInclude Include="aes_mode.h" />
     <ClInclude Include="aes_state.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

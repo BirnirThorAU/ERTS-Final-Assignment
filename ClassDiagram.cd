@@ -1,2 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AESEncryptionSystem">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAAAgIMIAGAAAAAAAWCAAAIAAQAFCQAQ=</HashCode>
+      <FileName>aes_encryption_system.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentMode" />
+      <Field Name="currentState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AESState">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAAAgAEAAEAAAAAAESAAAAIAAAAABAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idle">
+    <Position X="0.5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAEAAEAAAAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyLoaded">
+    <Position X="2.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAFECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeSelected">
+    <Position X="5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAABEQAAAAIAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataLoaded">
+    <Position X="7.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAgAEAAAAAAAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Processing">
+    <Position X="9.5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAACAABEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Done">
+    <Position X="11.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAEAAAAAAAABEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErrorState">
+    <Position X="9.5" Y="7.25" Width="1.75" />
+    <InheritanceLine Type="AESState" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="7.526" />
+        <Point X="8" Y="8" />
+        <Point X="9.5" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAABEAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>aes_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Command">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAABIAAAAgBQAAAAAAAgAAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AESMode">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>aes_mode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

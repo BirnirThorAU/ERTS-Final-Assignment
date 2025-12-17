@@ -44,7 +44,6 @@ out/
 *.user
 *.userosscache
 *.sln.docstates
-*.vcxproj.filters
 *.vcxproj.user
 
 # CMake
