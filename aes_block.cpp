@@ -139,7 +139,7 @@ void aes_accelerator(
 	uint8_t key[16],
 	uint8_t data_in[16],
 	uint8_t data_out[16],
-	bool encrypt
+	uint8_t encrypt
 ) {
 	if (encrypt) {
 		AES128EncryptBlock(key, data_in, data_out);

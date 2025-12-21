@@ -16,9 +16,6 @@
     <Filter Include="Source Files\States">
       <UniqueIdentifier>{b0b6f179-7f89-4f71-b05f-730c290a592c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Modes">
-      <UniqueIdentifier>{ccf6696a-a362-43a9-9603-84c01a1de26b}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="aes_encryption_system.cpp">
